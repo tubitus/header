@@ -4,14 +4,31 @@ body{
 
 header{
     background-color: rgb(41, 40, 40);
-}
-
-.a{
     display: flex;
-    width: 30px;
+    justify-content: space-between;
 }
 
 .acka{
     display: flex;
-    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    margin-right: 10px;
+}
+
+a{
+    display: flex;
+    border-radius: 3px;
+    color: rgb(245, 245, 245);
+    text-decoration: none;
+    
+}
+
+a:hover, a:active {
+    background-color: rgb(253, 5, 5);
+    color: rgb(5, 5, 5);
+  }
+
+img{
+    width: 110px;
+    height: 110px;
 }
